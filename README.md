@@ -13,6 +13,7 @@ This project is used to make analysis on large data and try to get info by using
 - we used news database that provide there tables that we used ('author,articles,log).
 ##Function that return data from "news"
 There are three functions that read from news database **'author,article,log'** :
+- **execute_query(query)** :this function for make connection to database and execute given query.
 - **view_popular_three_article()**: this function for select three top article from articles table.
 - **view_most_pop_article_author()**:this function for select three pop author from authors table.
 - **view_log_state()**: this function for view more than 1% of requests lead to errors.
