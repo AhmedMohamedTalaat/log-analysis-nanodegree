@@ -51,7 +51,7 @@ def view_log_state():
     data = execute_query(query)
     print("* View log state :")
     for row in data:
-        print(str(row[0]) + " - " + str(row[1]) + "%")
+        print('{} - {}% errors'.format(str(row[0]), str(row[1])))
 
 
 if __name__ == '__main__':
